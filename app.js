@@ -1,4 +1,4 @@
-a = 5;
+a = 60;
 b = 8;
 answer = 'hello developer';
 
@@ -9,5 +9,5 @@ if (a > b) {
     console.log(`${answer} right`);
 } else {
     console.log('final answer');
-
 }
+
