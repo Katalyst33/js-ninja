@@ -2,5 +2,8 @@
   "dependencies": {
     "bulma": "^0.8.0",
     "shred-bootstrap": "^1.0.2"
+  },
+  "scripts": {
+    "start": "node exercise/8.js"
   }
 }

@@ -4,19 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="bulma.css">
-    <link rel="stylesheet" href="https://unpkg.com/shred-bootstrap@1.0.2/css/utilities/spacing.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bulma.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/tailwind.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/shred-bootstrap@1.0.2/css/utilities/spacing.css"> -->
     <title>Document</title>
 </head>
 
 
 <body>
 
-    <h1 class=" is-size-1 has-text-danger my-5">Js Beginner</h1>
+    <h1 class=" is-size-3 has-text-weight-bold has-text-danger my-5">Js Ninja</h1>
     <h1 id="info">Js Beginner</h1>
 
-    <script src='for.js'>
+    <!-- with tail wind -->
+
+    <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
+        <div class="flex-shrink-0">
+            <img class="h-12 w-12" src="/img/app-logo.png" alt="ChitChat Logo">
+        </div>
+        <div class="ml-6 pt-1">
+            <h4 class="text-xl text-gray-900 leading-tight">ChitChat</h4>
+            <p class="text-base text-gray-600 leading-normal">You have a new message!</p>
+        </div>
+    </div>
+
+
+    <script src='objects/cloning.js'>
+
     </script>
 </body>
+
+
+<style>
+    .chat-notification {
+        display: flex;
+        max-width: 24rem;
+        margin: 0 auto;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+
+    .chat-notification-logo-wrapper {
+        flex-shrink: 0;
+    }
+
+    .chat-notification-logo {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .chat-notification-content {
+        margin-left: 1.5rem;
+        padding-top: 0.25rem;
+    }
+
+    .chat-notification-title {
+        color: #1a202c;
+        font-size: 1.25rem;
+        line-height: 1.25;
+    }
+
+    .chat-notification-message {
+        color: #718096;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+</style>
 
 </html>
